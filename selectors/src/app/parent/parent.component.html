@@ -1,0 +1,6 @@
+<div>
+  <h2> je suis le parent</h2>
+  <h3>vous séléctionnez: {{enfant.selected}}</h3>
+  Votre nom est?: <input placeholder="votre nom ici" [(ngModel)]="nom"  name="nom">
+<app-child #enfant [myname]="nom"></app-child>
+</div>
