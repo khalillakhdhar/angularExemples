@@ -1,0 +1,7 @@
+<table class="table">
+<tr *ngFor="let ms of historique">
+  <td>{{ms.pseudo}}: {{ms.texte}}</td><td>
+    <br> <h6>{{ms.date | date:'short'}}</h6>
+  </td>
+</tr>
+</table>

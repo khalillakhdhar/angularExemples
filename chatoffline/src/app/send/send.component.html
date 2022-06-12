@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+    </div>
+    <div class="col">
+      <app-history [historique]="messages"></app-history>
+      <form>
+
+        <div class="mb-3">
+          <input type="text" name="name" [(ngModel)]="message" class="form-control" placeholder="votre message ici">
+        </div>
+
+        <button type="submit" (click)="sendmessage()" class="btn btn-primary">Envoyez</button>
+      </form>
+    </div>
+    <div class="col">
+
+    </div>
+  </div>
+</div>
